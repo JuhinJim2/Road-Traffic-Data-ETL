@@ -9,7 +9,6 @@ from airflow.operators.bash import BashOperator
 from airflow.utils.dates import days_ago
 
 #defining DAG arguments
-
 default_args = {
     'owner': 'J',
     'start_date': days_ago(0),
