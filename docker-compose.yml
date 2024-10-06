@@ -1,15 +1,13 @@
 version: '3'
 
 services:
-  roaddataetl:latest:
+  roaddataetl:
     image: roaddataetl:latest
 
     volumes:
-    - ./$AIRFLOW_HOME:/opt/airflow
+      - ./airflow:/opt/airflow
 
     ports:
-    - "8080:8080"
+      - "8080:8080"
 
     command: airflow standalone
-
-  
