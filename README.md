@@ -6,7 +6,7 @@ This data engineering project aims to perform ETL operations on various file for
 
 ## Architecture
 
-<img src="\Visuals\Screenshot 2024-10-13 095806.png">
+<img src="Screenshot 2024-10-13 095806.png">
 
 ## Technology Used
 
