@@ -22,4 +22,4 @@ This data engineering project aims to perform ETL operations on various file for
 2. Extract data from a tsv file
 3. Extract data from a fixed-width file
 4. Transform the data
-5. oad the transformed data into the staging area
+5. Load the transformed data into the staging area
